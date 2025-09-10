@@ -2,11 +2,11 @@
   "version": 2,
   "functions": {
     "api/index.ts": {
-      "runtime": "@godsreveal/vercel-bun@0.2.4",
-      "maxDuration": 60
+      "runtime": "@godsreveal/vercel-bun@0.2.4"
     }
   },
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.ts" }
-  ]
+  ],
+  "outputDirectory": "."
 }
