@@ -1,16 +1,16 @@
 {
-  "name": "spottydl-vercel-proxy",
+  "name": "media-api-elysia-bun",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "bun --watch api/index.ts",
-    "build": "echo noop"
+    "build": "bun build",
+    "start": "bun run api/index.ts"
   },
   "dependencies": {
-    "elysia": "^1.3.21",
-    "spottydl": "^0.2.7"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.2"
+    "elysia": "0.11.0",
+    "ytdl-core": "4.11.1",
+    "spotify-web-api-node": "5.0.2",
+    "axios": "1.6.6",
+    "url-metadata": "2.0.1"
   }
 }
