@@ -1,0 +1,16 @@
+{
+  "name": "spottydl-vercel-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch api/index.ts",
+    "build": "echo noop"
+  },
+  "dependencies": {
+    "elysia": "^1.11.0",
+    "spottydl": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
