@@ -1,9 +1,7 @@
 {
   "functions": {
     "api/index.ts": {
-      "runtime": "@godsreveal/vercel-bun@0.2.4",
-      "memory": 1024,
-      "maxDuration": 10
+      "runtime": "@godsreveal/vercel-bun@0.2.4"
     }
   },
   "routes": [
